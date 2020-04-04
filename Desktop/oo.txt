@@ -1,0 +1,12 @@
+osboxes@osboxes:~/Desktop$ rm -r abc
+osboxes@osboxes:~/Desktop$ cd ./abc
+bash: cd: ./abc: No such file or directory
+osboxes@osboxes:~/Desktop$ mkdir ./mab
+osboxes@osboxes:~/Desktop$ mv kk/ll.txt mab
+osboxes@osboxes:~/Desktop$ touch uu.txt/mab
+touch: cannot touch 'uu.txt/mab': No such file or directory
+osboxes@osboxes:~/Desktop$ touch mab/uu.txt
+osboxes@osboxes:~/Desktop$ mv mab/uu.txt mab/ll.txt kk
+osboxes@osboxes:~/Desktop$ cp kk/*txt mab
+osboxes@osboxes:~/Desktop$ 
+afsdfjsadvfsba kjbladsbd
